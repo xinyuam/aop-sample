@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.jos.aop</groupId>
+	<artifactId>aop-sample</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>aop-sample</name>
+	<url>http://maven.apache.org</url>
+	<description>aop sample repo</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+		<maven.compiler.source>8</maven.compiler.source>
+		<maven.compiler.target>8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.aspectj.version>1.11</maven.aspectj.version>
+		<aspectj.version>1.9.7</aspectj.version>
+	</properties>
+
+	<modules>
+		<module>aop-aspectj-ctw</module>
+		<module>aop-aspectj-pcw</module>
+		<module>aop-aspectj-ltw</module>
+		<module>aspectj-spring</module>
+		<module>aspectj-spring-ctw</module>
+		<module>aspectj-spring-ltw-ajbean</module>
+		<module>aspectj-spring-ltw-spbean</module>
+	</modules>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>2.6.6</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+</project>

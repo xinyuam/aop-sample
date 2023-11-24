@@ -1,0 +1,5 @@
+com\jos\aop\aspectjspringltw\spbean\aspect\AspectWithAnnotation.class
+com\jos\aop\aspectjspringltw\spbean\bean\ProxyDomainAo.class
+com\jos\aop\aspectjspringltw\spbean\bean\ProxyDomainBo.class
+com\jos\aop\aspectjspringltw\spbean\cfg\AppConfig.class
+com\jos\aop\aspectjspringltw\spbean\AppSpringLtwBean.class

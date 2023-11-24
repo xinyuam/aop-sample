@@ -1,0 +1,3 @@
+com\jos\aop\aspectjltw\proxy\ProxyDomain.class
+com\jos\aop\aspectjltw\AppLtw.class
+com\jos\aop\aspectjltw\aspect\AspectWithAnnotation.class

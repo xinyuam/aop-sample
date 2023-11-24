@@ -1,0 +1,4 @@
+com\jos\aop\aspectjspringctw\AppSpringCtw.class
+com\jos\aop\aspectjspringctw\aspect\AspectWithAnnotation.class
+com\jos\aop\aspectjspringctw\bean\ProxyDomain.class
+com\jos\aop\aspectjspringctw\AppSpringCtwBean.class

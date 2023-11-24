@@ -1,0 +1,6 @@
+com\jos\aop\aspectjspring\bean\DomainAdviceAo.class
+com\jos\aop\aspectjspring\bean\DomainNormalBo.class
+com\jos\aop\aspectjspring\bean\DomainNormalAo.class
+com\jos\aop\aspectjspring\AppSpringAdvice.class
+com\jos\aop\aspectjspring\bean\ProxyDomain.class
+com\jos\aop\aspectjspring\AppSpringNormal.class

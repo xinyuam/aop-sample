@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- document: https://www.eclipse.org/aspectj/doc/released/devguide/ltw-configuration.html#configuring-load-time-weaving-with-aopxml-files -->
+<aspectj>
+    <weaver options="-showweaveInfo -Xlint:ignore"/>
+    <aspects>
+        <aspect name="com.jos.aop.aspectjltw.aspect.AspectWithAnnotation"/>
+    </aspects>
+</aspectj>
